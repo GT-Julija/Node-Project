@@ -1,0 +1,25 @@
+.nav-bar {
+  padding: 14px 30px;
+  display: flex;
+  justify-content: flex-end;
+  background-image: radial-gradient(circle farthest-corner at center, rgba(235, 97, 35, 1) 10%, rgba(203, 70, 3, 1) 20%, rgba(171, 42, 0, 1) 35%, rgba(140, 3, 0, 1) 45%, rgba(109, 0, 0, 1) 55%, rgba(79, 0, 0, 1) 65%, rgba(53, 0, 2, 1) 80%, rgba(1, 0, 0, 1) 90%, rgba(0, 0, 0, 1) 100%);
+
+}
+.h1 {
+  display: flex;
+  justify-content: start;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: rgb(249, 247, 247);
+  margin: 0 14px;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.nav-bar a:hover {
+  font-weight: bold;
+  box-shadow: inset 100px 0 0 0 #a16527;
+  color: #e69138;
+}
+

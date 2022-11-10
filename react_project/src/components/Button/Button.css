@@ -1,0 +1,30 @@
+.btn {
+  border: solid 1px #ddd;
+  background-color: #EB6122;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(255, 254, 254);
+ 
+ 
+}
+
+.btn:hover {
+  background-color: #060008;
+  color: #e69138;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn.Yes:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.btn.No:hover {
+  color: #fff;
+  background-color: #350343;
+}
